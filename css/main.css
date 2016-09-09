@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	font-family: "Oswald", sans-serif;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	margin: 2% 5%;
+}
+h1{
+	margin-top: 1%;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size:  50px;
+	color: #fff;
+	text-shadow: 3px 3px 1px rgba(150, 150, 150, 1);
+}
+ h2{ 	
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 35px;
+	color: #fff;
+	text-shadow: 3px 3px 1px rgba(150, 150, 150, 1);
+ }
+.cabecera{
+	background-image: url(../images/285.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	height: 450px;
+}
+.logo{
+	margin-top: 10%;
+}
+.contenedor{
+	background-image: url(../images/tile1.png);
+	background-repeat: repeat;
+	height: 400px;
+}
+section h2, footer h2{
+	margin: 5% auto;
+	color: #b02792;
+}
+.foto-perfil{
+	width: 100%;
+	border: 2px solid #b02792;
+	padding: 2%;
+}
+.texto{
+	text-align: left;
+	padding-left: 1%;
+}
+.foto-circular{
+	margin: 15% auto;
+	border-radius: 250px;
+	border:2px solid #b02792;
+	width: 100%;
+	padding: 2%;
+}
+footer{
+	background-image: url(../images/tile2.png);
+	background-repeat: repeat;
+	height: 350px;
+}
+footer a{
+	margin: 0 2%;
+}
